@@ -17,6 +17,6 @@ docker ps -a | egrep 'charlicoder-st' | awk '{print $1}'| xargs docker kill
 docker ps -a | egrep 'charlicoder-st' | awk '{print $1}'| xargs docker rm
 
 echo "running the charlicoder using docker"
-docker run -d --restart=unless-stopped --name charlicoder-st -p 8000:8000 charlicoder-st
+docker run -d --restart=unless-stopped --name charlicoder-st -p 8501:8501 charlicoder-st
 
 echo "We are done !"
