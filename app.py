@@ -17,8 +17,16 @@ with col2:
     st.write(
         "Sr. Software Engineer | Full Stack Developer | Data Engineer"
     )
+    st.markdown("""
+        ### My Profiles
+        - [LinkedIn](https://www.linkedin.com/in/charlicoder)
+        - [GitHub](https://github.com/charlicoder)
+        """)
     if st.button("Contact Me"):
         show_contact_form()
+
+
+st.write("---")
 
 st.write("\n")
 st.subheader("Experience & Qualificatoins", anchor=False)
